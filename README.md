@@ -16,7 +16,7 @@ Ao executar temos a primeira opção:
 Quando logado as seguintes opções são mostradas:
   
 (1) To edit your profile;
-(2) To make friends;
+(2) To go to the friends menu;
 (3) To send messages to other users;
 (4) To create a community;
 (5) To go to the community menu;
