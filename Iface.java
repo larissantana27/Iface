@@ -36,7 +36,6 @@ public class Iface
     //Varibel to see if the username/nickname you want to interact with exists//
     static boolean correct = false;
     //Varible used to see if the password you typed is correct//
-
     
     static boolean[][] matrixOfFriends = new boolean[100][100];
     //represents the friendships bounds// true/false in diagonal of WhosLogged and other is there are or not friends// 
@@ -52,8 +51,7 @@ public class Iface
     //Stores the historic of messages with each user with others//
     static Scanner input = new Scanner(System.in);
     
-
-	public static void main(String[] args)
+    public static void main(String[] args)
     {
         while (option != 9)
         {
@@ -442,7 +440,6 @@ public class Iface
             }
 
             if (!existent) System.out.println("There is no notifications!");
- 
         }
     }
 
@@ -805,6 +802,7 @@ public class Iface
                 }
             }
         }
+		
         if (option == 7)
         {
             sucess = false;
